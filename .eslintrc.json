@@ -4,12 +4,12 @@
     "commonjs": true,
     "es2021": true
   },
-  "extends": "airbnb-base",
+  "extends": ["airbnb-base", "prettier"],
   "parserOptions": {
     "ecmaVersion": "latest"
   },
   "rules": {
-    "no-console": "off",
-    "quotes": ["error", "double"]
+    "no-console": "off"
+    // "quotes": ["error", "double"]
   }
 }
